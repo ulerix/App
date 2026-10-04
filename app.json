@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "DP Gaz",
+    "slug": "dp-gaz",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ca.dpgaz.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "ca.dpgaz.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": [
+      "expo-sqlite",
+      "expo-sharing",
+      "expo-secure-store"
+    ],
+    "owner": "ulerixs-team",
+    "extra": {
+      "eas": {
+        "projectId": "57d625ad-bd35-45af-a279-810cb427ebc5"
+      }
+    }
+  }
+}
